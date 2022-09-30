@@ -174,7 +174,6 @@ class Fighter extends Sprite {
                     this.framemax = this.sprites.idle.framemax
                     this.currentframe = 0
                 }
-            
                 break
 
             case 'run':
@@ -183,7 +182,6 @@ class Fighter extends Sprite {
                     this.framemax = this.sprites.run.framemax
                     this.currentframe = 0
                 }
-            
                 break
 
             case 'jump':
@@ -192,7 +190,6 @@ class Fighter extends Sprite {
                     this.currentframe = 0
                     this.framemax = this.sprites.jump.framemax
                 }
-            
                 break
 
             case 'fall':
@@ -201,7 +198,6 @@ class Fighter extends Sprite {
                     this.currentframe = 0
                     this.framemax = this.sprites.fall.framemax
                 }
-            
                 break
 
 
@@ -211,7 +207,6 @@ class Fighter extends Sprite {
                     this.currentframe = 0
                     this.framemax = this.sprites.attack1.framemax
                 }
-            
                 break
             case 'takeHit':
                 if (this.image != this.sprites.takeHit.image) {
@@ -219,7 +214,6 @@ class Fighter extends Sprite {
                     this.currentframe = 0
                     this.framemax = this.sprites.takeHit.framemax
                 }
-            
                 break
             case 'death':
                 if (this.image != this.sprites.death.image) {
@@ -227,7 +221,6 @@ class Fighter extends Sprite {
                     this.currentframe = 0
                     this.framemax = this.sprites.death.framemax
                 }
-            
                 break
 
 
